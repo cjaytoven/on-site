@@ -1,0 +1,171 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+}
+
+.hero, .footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 125px;
+}
+
+.hero .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+li {
+    display: inline;
+    margin: 7px;
+}
+  
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.hero .top {
+    display: flex;
+    padding: 75px 0px;
+}
+
+.top .left, .top .right {
+    flex: 1 1 0px;
+}
+
+.top .right {
+    display: flex;
+    justify-content: right;
+    padding-right: 10px;
+}
+
+.sneed {
+    width: 80%;
+    height: auto;
+  }
+
+.left header {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    background: #3882F6;
+    padding: 8px 28px;
+    color: #F9FAF8;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.content {
+    padding: 50px 250px;
+}
+.content header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding-bottom: 50px;
+}
+
+.content .information {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+.sub-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 200px;
+    text-align: center;
+  }
+
+.sneed-two {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 50px 250px;
+}
+
+.quote .sample-quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 0px;
+}
+
+.quote .thor {
+    color: #1F2937;
+    text-align: right;
+    font-weight: 900;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-right: 40px;
+}
+
+.action {
+    padding: 100px 125px;
+    color: #F9FAF8;
+}
+
+.sub-action {
+    padding: 25px 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.sub-action button {
+    border-color: #F9FAF8;
+    border-style: solid;
+    padding: 0px 28px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.sub-action .left .call {
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+
+.sub-action .left .words {
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.footer {
+    text-align: center;
+    padding: 25px 0px;
+}
+
